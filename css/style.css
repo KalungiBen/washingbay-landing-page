@@ -2078,3 +2078,204 @@ a:focus {
 .footer .copyright p a:hover {
     color: #ffffff;
 }
+
+
+@media (max-width: 767px) {
+    /* General Styles */
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    /* Center align content */
+    .section-header,
+    .about-content,
+    .service-item,
+    .price-item,
+    .location-item,
+    .team-item,
+    .testimonial-item,
+    .footer-contact,
+    .footer-link,
+    .footer-newsletter {
+      text-align: center;
+    }
+  
+    /* Top Bar */
+    .top-bar {
+      padding: 10px 0;
+    }
+  
+    .top-bar .logo h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .top-bar-item {
+      margin-bottom: 10px;
+    }
+  
+    .top-bar-icon {
+      display: none;
+    }
+  
+    .top-bar-text h3 {
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+  
+    .top-bar-text p {
+      font-size: 14px;
+    }
+    
+    /* Navigation */
+    .nav-bar .navbar-nav {
+      margin-top: 15px;
+    }
+    
+    .nav-bar .navbar-nav .nav-link {
+      padding: 10px 0;
+      text-align: center;
+    }
+  
+    .nav-bar .ml-auto {
+      margin-top: 15px;
+      text-align: center;
+    }
+    
+    /* Carousel */
+    .carousel-item .carousel-text {
+      padding: 0 20px;
+    }
+  
+    .carousel-item .carousel-text h3 {
+      font-size: 18px;
+    }
+  
+    .carousel-item .carousel-text h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    
+    .carousel-item .carousel-text p {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+    
+    /* About Section */
+    .about-img {
+      margin-bottom: 30px;
+    }
+  
+    .about-content ul {
+      padding-left: 0;
+      list-style-type: none;
+    }
+  
+    .about-content ul li {
+      margin-bottom: 10px;
+    }
+    
+    /* Services */
+    .service-item {
+      margin-bottom: 30px;
+      padding: 30px 20px;
+    }
+  
+    .service-item i {
+      margin-bottom: 15px;
+    }
+    
+    /* Pricing */
+    .price-item {
+      margin-bottom: 30px;
+    }
+  
+    .price-header h3 {
+      font-size: 20px;
+    }
+  
+    .price-header h2 {
+      font-size: 30px;
+    }
+    
+    /* Location */
+    .location-item {
+      margin-bottom: 30px;
+    }
+    
+    .location-form {
+      margin-top: 30px;
+      padding: 30px 20px;
+    }
+    
+    /* Team */
+    .team-item {
+      margin-bottom: 30px;
+    }
+  
+    .team-text {
+      padding: 20px 15px;
+    }
+    
+    /* Testimonial */
+    .testimonial-item {
+      padding: 30px 20px;
+    }
+  
+    .testimonial-text {
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .testimonial-img {
+      margin-bottom: 15px;
+    }
+    
+    /* Footer */
+    .footer {
+      padding: 60px 0 30px;
+    }
+  
+    .footer-contact,
+    .footer-link,
+    .footer-newsletter {
+      margin-bottom: 30px;
+    }
+  
+    .footer-social .btn {
+      margin-bottom: 5px;
+    }
+    
+    /* General Spacing */
+    .section-header {
+      margin-bottom: 30px;
+    }
+  
+    .section-header p {
+      font-size: 16px;
+    }
+  
+    .section-header h2 {
+      font-size: 28px;
+    }
+  }
+  
+  /* For very small devices */
+  @media (max-width: 575px) {
+    .carousel-item .carousel-text h1 {
+      font-size: 24px;
+    }
+    
+    .section-header h2 {
+      font-size: 24px;
+    }
+  
+    .price-header h2 {
+      font-size: 24px;
+    }
+  }
